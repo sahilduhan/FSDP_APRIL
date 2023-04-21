@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <style>
+      /* css selectors using tag names */
+      h1 {
+        text-align: center;
+        /* color: red; */
+      }
+      p {
+        color: darkgray;
+        font-family: "Times New Roman", Times, serif;
+        background-color: aqua;
+      }
+
+      /* css slector using class */
+      /* for selecting a particular element by using the class name we use dot operator */
+
+      .heading {
+        color: blue;
+        text-align: center;
+      }
+      .description {
+        text-align: center;
+        color: plum;
+        font-size: 30px;
+        background-color: greenyellow;
+        font-family: "Times New Roman", Times, serif;
+      }
+
+      /* css slectors using id */
+      /* for selecting an element we genrally use the # operator */
+      #name {
+        color: blue;
+        font-weight: bold;
+        font-family: "Times New Roman", Times, serif;
+        border-radius: 10px;
+      }
+      #mobNumber {
+        color: blue;
+        font-weight: bold;
+        font-family: "Times New Roman", Times, serif;
+        border-radius: 10px;
+      }
+      #email {
+        color: blue;
+        font-weight: bold;
+        font-family: "Times New Roman", Times, serif;
+        border-radius: 10px;
+      }
+
+      label {
+        font-family: "Times New Roman", Times, serif;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- css selectors: an identifier that can be used to identify an element-->
+    <!-- tag name -->
+    <h1>Registration Page</h1>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem cupiditate
+      maxime voluptatum alias enim! Vero earum ducimus laboriosam officiis,
+      repellendus natus nulla delectus beatae possimus ipsam asperiores adipisci
+      odit voluptatem nesciunt quas. Nihil repudiandae ab laudantium nesciunt
+      vero reiciendis odit odio et, impedit obcaecati deleniti esse fuga
+      similique, dolore dicta?
+    </p>
+    <!-- 1. class -->
+
+    <h1 class="heading">Hello Cutie</h1>
+    <p class="description">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit,
+      deserunt. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi,
+      voluptatum.
+    </p>
+
+    <!-- 2. id -->
+    <label>Enter Your Name</label>
+    <input type="text" id="name" placeholder="Sahil Duhan" />
+    <br />
+    <br />
+    <label>Enter Your Mobile Number:</label>
+    <input type="text" id="mobNumber" placeholder="+91 XXXXX XXXXX" />
+    <br />
+    <br />
+    <label> Enter Your Email Id:</label>
+    <input type="email" id="email" placeholder="johndoe@gamil.com" />
+
+    <!-- padding, margin, border -->
+  </body>
+</html>
