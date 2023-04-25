@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:url('/blurry-gradient-haikei.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    margin: auto;
+    margin-top: 80px;
+    background-color: azure;
+    width: 80%;
+    height: 800px;
+    border-radius: 60px;
+}
+.leftSide{
+    float: left;
+    /* border: 2px solid black; */
+    /* overflow: hidden; */
+    height: 100%;
+    width: 50%;
+}
+.imageBackground{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 25%;
+    background-color: rgb(230, 224, 224);
+}
+
+.rightSide{
+    float: right;
+    height: 100%;
+    width: 50%;
+}
+.rightSide h1{
+    text-align: center;
+    margin-top: 20%;
+    font-family: 'Times New Roman', Times, serif; 
+    color: #1cc840;
+}
+.rightSide input{
+    display: block;
+    padding: 20px;
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: large;
+}
+.btn{
+    display: block;
+    width: 40%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 40px;
+    border: none;
+    border-radius: 30px;
+    background-color: #1cc840;
+    color: azure;
+}
+
+.rightSide form h3{
+    margin-top: 40px;
+    text-align: center;
+    color: #1cc840;
+}
+
+.rightSide form span{
+    color: black;
+    margin-right: 5px;
+}
+
+.rightSide form h2{
+    margin-top: 40px;
+    text-align: center;
+    color: #1cc840;
+}
