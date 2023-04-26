@@ -1,0 +1,71 @@
+body{
+    background: url('./blurry-gradient-haikei.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.container{
+    background-color: azure;
+    width: 30%;
+    margin: auto;
+    margin-top: 100px;
+    height: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+}
+h1{
+    margin: 40px;
+}
+input{
+    margin: 10px;
+    margin-top: 20px;
+    padding: 15px;
+    width: 60%;
+    border: none;
+    background-color: azure;
+    border-bottom: 1px solid black;
+}
+/* h4{
+    margin: 3px;
+    float: right;
+} */
+
+.btn{
+    /* margin: 10px; */
+    margin-top: 40px;
+    padding: 15px;
+    width: 60%;
+    border: none;
+    border-radius: 20px;
+    background-color: greenyellow;
+    /* background: url('./buttonBackground.svg'); */   
+}
+
+h5{
+    margin-top:50px
+}
+
+.images{
+    margin-top:30px ;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    background-color: azure;
+}
+
+.images img{
+    height: 30px;
+    width: 30px;
+}
+
+.signupButton{
+    margin-top: 40px;
+    padding: 15px;
+    width: 30%;
+    border: none;
+    border-radius: 20px;
+    background-color: greenyellow;
+
+}
